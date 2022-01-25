@@ -20,7 +20,7 @@ Params:
   AuthorImg: img/author.jpg
   BottomIntroduce:
   CreativeCommons: yes
-  DateFormat: 2006Y01M02D
+  DateFormat: 2006 01 02 
   Description: ''
   Disqus:
     ShortName: ''
@@ -33,10 +33,10 @@ Params:
   Imglogo: img/logo.svg
   LinkIn: ''
   MathJax: no
-  MonthFormat: 2006年01月
+  MonthFormat: 2006 01 
   Strings:
-    Archive: 归档
-    Categories: 分类
+    Archive: Arquivo
+    Categories: Categorias 
     HideSideBar: 隐藏侧边栏
     PageNotFound: 你访问的页面不存在
     Rss: RSS 订阅
