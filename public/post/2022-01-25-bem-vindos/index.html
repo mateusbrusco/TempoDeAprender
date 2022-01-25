@@ -2,18 +2,18 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Tags - Escola Tempo de Aprender</title>
+  <title>Bem vindos! - Escola Tempo de Aprender</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="Tags">
+  <meta name="description" content="testeeeeeeeeeee">
   
-  <meta itemprop="name" content="Tags - Escola Tempo de Aprender">
-  <meta itemprop="description" content="Tags">
+  <meta itemprop="name" content="Bem vindos! - Escola Tempo de Aprender">
+  <meta itemprop="description" content="testeeeeeeeeeee">
   <meta itemprop="image" content="https://tempodeaprender.netlify.app/img/author.jpg">
   
   
   <meta name="twitter:description" content="">
-  <link rel="alternate" href="https://tempodeaprender.netlify.app/feed.xml" title="Escola Tempo de Aprender" type="application/rss+xml"/>
+  
   <link rel="shortcut icon" href="https://tempodeaprender.netlify.app/img/favicon.ico"/>
   <link rel="apple-touch-icon" href="https://tempodeaprender.netlify.app/apple-touch-icon.png" />
   <link rel="apple-touch-icon-precomposed" href="https://tempodeaprender.netlify.app/apple-touch-icon.png" />
@@ -60,9 +60,50 @@
 
   </header>
   <div id="container">
-    <div id="main">
-      
+    <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody">
+    <header class="article-info clearfix">
+  <h1 itemprop="name">
+      <a href="https://tempodeaprender.netlify.app/post/2022-01-25-bem-vindos/" title="Bem vindos!" itemprop="url">Bem vindos!</a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="https://tempodeaprender.netlify.app/" title="">you</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2022-01-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022年01月25日</time>
+  </p>
+</header>
+
+	<div class="article-content">
+    
+    <p>testeeeeeeeeeee</p>
+
+    
+	</div>
+  <footer class="article-footer clearfix">
+  
+
+
+
+
+
+
+
+  <div class="article-share" id="share">
+    <div data-url="https://tempodeaprender.netlify.app/post/2022-01-25-bem-vindos/" data-title="Bem vindos!" data-tsina="123" class="share clearfix">
     </div>
+  </div>
+</footer>
+
+	</article>
+  
+
+
+
+</div>
+
     <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
@@ -95,10 +136,6 @@
 
 
   
-<div class="rsspart">
-  <a rel="nofollow" href="https://tempodeaprender.netlify.app/feed.xml" type="application/rss+xml" target="_blank">RSS 订阅</a>
-</div>
-
 
 </aside>
 </div>
@@ -184,6 +221,38 @@ $(document).ready(function(){
 
 <script type="text/javascript">
 $(document).ready(function(){
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
   var $this = $('.share'),
       url = $this.attr('data-url'),
       encodedUrl = encodeURIComponent(url),
@@ -210,6 +279,27 @@ $(document).ready(function(){
 });
 </script>
 
+
+<link rel="stylesheet" href="https://tempodeaprender.netlify.app/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="https://tempodeaprender.netlify.app/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+});
+</script>
 
 
 

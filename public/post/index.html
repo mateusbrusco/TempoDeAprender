@@ -2,13 +2,13 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Tags - Escola Tempo de Aprender</title>
+  <title>Posts - Escola Tempo de Aprender</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="Tags">
+  <meta name="description" content="Posts">
   
-  <meta itemprop="name" content="Tags - Escola Tempo de Aprender">
-  <meta itemprop="description" content="Tags">
+  <meta itemprop="name" content="Posts - Escola Tempo de Aprender">
+  <meta itemprop="description" content="Posts">
   <meta itemprop="image" content="https://tempodeaprender.netlify.app/img/author.jpg">
   
   
@@ -61,6 +61,18 @@
   </header>
   <div id="container">
     <div id="main">
+      
+      <h2 id="2022-01">2022-01</h2>
+      
+      <section class="post" itemscope itemprop="blogPost">
+    <a href="https://tempodeaprender.netlify.app/post/2022-01-25-bem-vindos/" title="Bem vindos!" itemprop="url">
+    <h1 itemprop="name">Bem vindos!</h1>
+    <p itemprop="description">testeeeeeeeeeee</p>
+    <time datetime="2022-01-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022年01月25日</time>
+  </a>
+</section>
+
+      
       
     </div>
     <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
@@ -184,6 +196,38 @@ $(document).ready(function(){
 
 <script type="text/javascript">
 $(document).ready(function(){
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
   var $this = $('.share'),
       url = $this.attr('data-url'),
       encodedUrl = encodeURIComponent(url),
@@ -210,6 +254,27 @@ $(document).ready(function(){
 });
 </script>
 
+
+<link rel="stylesheet" href="https://tempodeaprender.netlify.app/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="https://tempodeaprender.netlify.app/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+});
+</script>
 
 
 
