@@ -1,0 +1,59 @@
+BaseURL: http://coderzh.github.io/hugo-pacman-theme/
+LanguageCode: zh-CN
+HasCJKLanguage: yes
+Title: Hugo PacMan Theme Demo
+theme: hugo-pacman-theme
+pygmentsStyle: default
+pygmentsUseClasses: yes
+Author:
+  Name: your-name
+outputs:
+  home:
+    - RSS
+    - HTML
+outputFormats:
+  RSS:
+    baseName: feed
+    mediatype: application/rss
+Params:
+  AuthorHomepage: your-home-page
+  AuthorImg: img/author.jpg
+  BottomIntroduce: Introduce1 <br/> Introduce2
+  CreativeCommons: yes
+  DateFormat: 2006年01月02日
+  Description: ''
+  Disqus:
+    ShortName: ''
+  Facebook: ''
+  FancyBox: yes
+  GitHub: ''
+  GoogleAnalytics:
+    ID: ''
+    gtag_ID: ''
+  Imglogo: img/logo.svg
+  LinkIn: ''
+  MathJax: no
+  MonthFormat: 2006年01月
+  Strings:
+    Archive: 归档
+    Categories: 分类
+    HideSideBar: 隐藏侧边栏
+    PageNotFound: 你访问的页面不存在
+    Rss: RSS 订阅
+    Search: 搜索
+    ShowSideBar: 显示侧边栏
+    TableOfContents: 文章目录
+    TagCloud: 标签云
+    Tags: 标签
+  Subtitle: subtitle
+  Twitter: ''
+  Weibo: ''
+  WeiboID: 123
+Menu:
+  Main:
+    - Name: 首页
+      URL: /
+      Weight: 1
+    - Name: 关于
+      URL: /about
+      Weight: 2
