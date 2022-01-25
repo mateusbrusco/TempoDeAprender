@@ -6,8 +6,8 @@ slug: []
 categories: []
 tags: []
 ---
-# Sejam todos bem vindos à página da Escola Tempo de Aprender!!
+## Sejam todos bem vindos à página da Escola Tempo de Aprender!!
 
-Estamos muito felizes em começar esse novo ano com vocês!!
+Estamos muito felizes em começar esse novo ano com vocês!!\n
 
 Bora lá aprender coisas novas de forma divertida??
