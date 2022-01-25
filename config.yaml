@@ -1,12 +1,12 @@
 BaseURL: https://tempodeaprender.netlify.app/
 LanguageCode: pt-BR
 HasCJKLanguage: yes
-Title: Hugo PacMan Theme Demo
+Title: Escola Tempo de Aprender
 theme: hugo-pacman-theme
 pygmentsStyle: default
 pygmentsUseClasses: yes
 Author:
-  Name: your-name
+  Name: Prof. Carvalho
 outputs:
   home:
     - RSS
@@ -16,9 +16,9 @@ outputFormats:
     baseName: feed
     mediatype: application/rss
 Params:
-  AuthorHomepage: your-home-page
+  AuthorHomepage: https://tempodeaprender.netlify.app/
   AuthorImg: img/author.jpg
-  BottomIntroduce: Introduce1 <br/> Introduce2
+  BottomIntroduce:
   CreativeCommons: yes
   DateFormat: 2006年01月02日
   Description: ''
