@@ -1,5 +1,5 @@
-BaseURL: http://coderzh.github.io/hugo-pacman-theme/
-LanguageCode: zh-CN
+BaseURL: https://tempodeaprender.netlify.app/
+LanguageCode: pt-BR
 HasCJKLanguage: yes
 Title: Hugo PacMan Theme Demo
 theme: hugo-pacman-theme
