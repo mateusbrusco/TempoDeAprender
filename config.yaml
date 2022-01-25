@@ -20,7 +20,7 @@ Params:
   AuthorImg: img/author.jpg
   BottomIntroduce:
   CreativeCommons: yes
-  DateFormat: 2006年01月02日
+  DateFormat: 2006Y01M02D
   Description: ''
   Disqus:
     ShortName: ''
