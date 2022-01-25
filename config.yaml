@@ -39,8 +39,8 @@ Params:
     Categories: Categorias 
     HideSideBar: 隐藏侧边栏
     PageNotFound: 你访问的页面不存在
-    Rss: RSS 订阅
-    Search: 搜索
+    Rss: RSS 
+    Search: Pesquisar
     ShowSideBar: 显示侧边栏
     TableOfContents: 文章目录
     TagCloud: 标签云
@@ -51,9 +51,9 @@ Params:
   WeiboID: 123
 Menu:
   Main:
-    - Name: 首页
+    - Name: Página inicial
       URL: /
       Weight: 1
-    - Name: 关于
+    - Name: Sobre a escola 
       URL: /about
       Weight: 2
