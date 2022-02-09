@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tempodeaprender.netlify.app/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tempodeaprender.netlify.app/post/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tempodeaprender.netlify.app/post/2022-02-08-primeiro-post/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tempodeaprender.netlify.app/post/2022-01-25-bem-vindos/</loc>
     <lastmod>2022-01-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tempodeaprender.netlify.app/</loc>
-    <lastmod>2022-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tempodeaprender.netlify.app/post/</loc>
+    <loc>https://tempodeaprender.netlify.app/post/2022-01-25-teste/</loc>
     <lastmod>2022-01-25T00:00:00+00:00</lastmod>
   </url>
   

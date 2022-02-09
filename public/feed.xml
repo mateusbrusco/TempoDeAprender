@@ -6,7 +6,17 @@
     <description>Recent content on Escola Tempo de Aprender</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 25 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tempodeaprender.netlify.app/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tempodeaprender.netlify.app/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primeiro post</title>
+      <link>https://tempodeaprender.netlify.app/post/2022-02-08-primeiro-post/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tempodeaprender.netlify.app/post/2022-02-08-primeiro-post/</guid>
+      <description>Disciplina de leitura e linguagem Aula: o nariz do elefantinho Assista ao vídeo abaixo e depois responda as perguntas.
+  Perguntas sobre o vídeo</description>
+    </item>
+    
     <item>
       <title>Bem vindos!</title>
       <link>https://tempodeaprender.netlify.app/post/2022-01-25-bem-vindos/</link>
@@ -16,6 +26,17 @@
       <description>Sejam todos bem vindos à página da Escola Tempo de Aprender!! Estamos muito felizes em começar esse novo ano com vocês!!
 Bora lá aprender coisas novas de forma divertida??
 Mensagem de boas vindas</description>
+    </item>
+    
+    <item>
+      <title>TESTE</title>
+      <link>https://tempodeaprender.netlify.app/post/2022-01-25-teste/</link>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tempodeaprender.netlify.app/post/2022-01-25-teste/</guid>
+      <description>Esse é um teste!Olá,
+bom dia!
+</description>
     </item>
     
     <item>

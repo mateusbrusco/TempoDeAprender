@@ -12,4 +12,4 @@ Estamos muito felizes em começar esse novo ano com vocês!!
 
 Bora lá aprender coisas novas de forma divertida??
 
-[Mensagem de boas vindas]({{< ref "/boas_vindas.pdf" >}})
+[Mensagem de boas vindas](/teste.pdf) 
