@@ -8,6 +8,8 @@ tags: []
 ---
 ## Sejam todos bem vindos à página da Escola Tempo de Aprender!!
 
-Estamos muito felizes em começar esse novo ano com vocês!!\n
+Estamos muito felizes em começar esse novo ano com vocês!!
 
 Bora lá aprender coisas novas de forma divertida??
+
+[Mensagem de boas vindas]({{< ref "/boas_vindas.pdf" >}})
