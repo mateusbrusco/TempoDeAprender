@@ -15,6 +15,6 @@ Assista ao vídeo abaixo e depois faça as atividades conforme indicado.
 
 [Copiar no caderno](/pronomesii.pdf)
 
-[Atividades sobre pronomes](/pronomes.pdf)
+[Atividades sobre pronomes](/pronomes.docx)
 
 Você pode mandar suas dúvidas para o e-mail: tempodeaprender08@gmail.com. Vamos responder bem rapidinho!!!
