@@ -9,3 +9,4 @@ tags: []
 ## Disciplina de inglês
 
 {{< figure src="/figura1.png" title="Figura" >}}
+{{< figure src="/figura2.png" title="Figura" >}}
