@@ -7,7 +7,6 @@ categories: []
 tags: []
 ---
 ## Disciplina de linguagem
-# Aula: pronomes pessoais
 
 Assista ao vídeo abaixo e depois faça as atividades conforme indicado.
 
