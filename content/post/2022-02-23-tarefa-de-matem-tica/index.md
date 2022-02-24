@@ -8,6 +8,8 @@ tags: []
 ---
 ## Disciplina de matemática
 
-Faça a atividade da imagem abaixo.
+ Assista ao vídeo abaixo e faça a atividade da imagem.
+ 
+ {{< youtube LETRVVJC8hQ >}}
 
 {{< figure src="/multiplica_2.png" title="Atividade de multiplicação" >}}
